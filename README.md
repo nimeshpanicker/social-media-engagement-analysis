@@ -50,8 +50,7 @@ and evaluates performance across:
 | Supporting Tool   | Excel               |
 
 ### Platforms
-```
-```
+
 ```
 Facebook
 Instagram
@@ -60,8 +59,7 @@ LinkedIn
 ```
 
 ### Content Types
-```
-```
+
 ```
 Post
 Story
