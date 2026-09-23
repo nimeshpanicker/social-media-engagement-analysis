@@ -53,7 +53,6 @@ and evaluates performance across:
 
 ```
 ```
-
 ```
 Facebook
 Instagram
@@ -65,7 +64,6 @@ LinkedIn
 
 ```
 ```
-
 ```
 Post
 Story
