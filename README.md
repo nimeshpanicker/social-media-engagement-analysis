@@ -50,7 +50,6 @@ and evaluates performance across:
 | Supporting Tool   | Excel               |
 
 ### Platforms
-
 ```
 ```
 ```
@@ -61,7 +60,6 @@ LinkedIn
 ```
 
 ### Content Types
-
 ```
 ```
 ```
