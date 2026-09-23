@@ -38,7 +38,7 @@ and evaluates performance across:
 
 # 📊 Dataset Overview
 
-| AttributeDetails  |                     |
+| Attribute         |      Details        |       
 | ----------------- | ------------------- |
 | Total Posts       | 200                 |
 | Platforms         | 4                   |
@@ -74,13 +74,10 @@ Article
 The project uses a single table:
 
 ```
-```
-
-```
 SocialMediaEngagement
 ```
 
-| ColumnDescription |                               |
+| Column            |    Description                |
 | ----------------- | ----------------------------- |
 | `Platform`        | Social media platform         |
 | `EngagementRate`  | Engagement efficiency metric  |
@@ -169,17 +166,11 @@ The analysis includes queries for:
 ## Click-Through Rate
 
 ```
-```
-
-```
 CTR =
 Total Clicks ÷ Total Impressions × 100
 ```
 
 ## Profile Visit Rate
-
-```
-```
 
 ```
 Profile Visit Rate =
@@ -201,7 +192,7 @@ The metrics are normalised using a min-max approach with equal weighting.
 
 # 📈 Key Performance Indicators
 
-| KPIResult          |           |
+|       KPI          |  Result   |
 | ------------------ | --------- |
 | Total Posts        | 200       |
 | Platforms          | 4         |
@@ -228,12 +219,12 @@ The dataset contains more than:
 
 ## Platform KPI Comparison
 
-| PlatformAvg Engagement RateTotal Follower GrowthAvg Daily Reach |       |         |           |
-| --------------------------------------------------------------- | ----- | ------- | --------- |
-| Facebook                                                        | 8.23% | 75,920  | 35,350.52 |
-| Instagram                                                       | 8.67% | 104,140 | 33,847.82 |
-| YouTube                                                         | 8.97% | 83,271  | 30,436.12 |
-| LinkedIn                                                        | 8.69% | 56,871  | 29,733.32 |
+| Platform  | Avg Engagement Rate | Total Follower Growth | Avg Daily Reach |
+|-----------|--------------------:|----------------------:|----------------:|
+| Facebook  | 8.23%               | 75,920                | 35,350.52       |
+| Instagram | 8.67%               | 104,140               | 33,847.82       |
+| YouTube   | 8.97%               | 83,271                | 30,436.12       |
+| LinkedIn  | 8.69%               | 56,871                | 29,733.32       |
 
 ### Platform Insights
 
@@ -268,12 +259,12 @@ This demonstrates why platform performance should be evaluated using multiple me
 
 # 📊 Platform Post Volume
 
-| PlatformPosts |    |
-| ------------- | -- |
-| Instagram     | 65 |
-| YouTube       | 51 |
-| Facebook      | 50 |
-| LinkedIn      | 34 |
+| Platform  | Posts |
+|-----------|------:|
+| Instagram | 65    |
+| YouTube   | 51    |
+| Facebook  | 50    |
+| LinkedIn  | 34    |
 
 Instagram represents the largest number of posts in the dataset.
 
@@ -281,13 +272,12 @@ Instagram represents the largest number of posts in the dataset.
 
 # 📊 Reach, Impressions & Engagement
 
-| PlatformAvg ReachAvg ImpressionsAvg ClicksAvg Profile Visits |           |            |           |           |
-| ------------------------------------------------------------ | --------- | ---------- | --------- | --------- |
-| Facebook                                                     | 35,350.52 | 106,476.12 | 24,122.72 | 15,699.28 |
-| Instagram                                                    | 33,847.82 | 113,049.17 | 25,794.68 | 14,982.94 |
-| LinkedIn                                                     | 29,733.32 | 105,925.12 | 25,435.88 | 15,739.88 |
-| YouTube                                                      | 30,436.12 | 97,998.73  | 25,487.49 | 15,248.31 |
-
+| Platform  | Avg Reach | Avg Impressions | Avg Clicks | Avg Profile Visits |
+|-----------|----------:|----------------:|-----------:|-------------------:|
+| Facebook  | 35,350.52 | 106,476.12      | 24,122.72  | 15,699.28          |
+| Instagram | 33,847.82 | 113,049.17      | 25,794.68  | 14,982.94          |
+| LinkedIn  | 29,733.32 | 105,925.12      | 25,435.88  | 15,739.88          |
+| YouTube   | 30,436.12 | 97,998.73       | 25,487.49  | 15,248.31          |
 This comparison demonstrates that reach, impressions, clicks, and profile visits provide different perspectives on platform performance.
 
 ---
@@ -297,18 +287,15 @@ This comparison demonstrates that reach, impressions, clicks, and profile visits
 ## CTR Formula
 
 ```
-```
-
-```
 CTR = Total Clicks ÷ Total Impressions × 100
 ```
 
-| PlatformTotal ClicksTotal ImpressionsCTR |           |           |        |
-| ---------------------------------------- | --------- | --------- | ------ |
-| Facebook                                 | 1,206,136 | 5,323,806 | 22.66% |
-| Instagram                                | 1,676,654 | 7,348,196 | 22.82% |
-| LinkedIn                                 | 864,820   | 3,601,454 | 24.01% |
-| YouTube                                  | 1,299,862 | 4,997,935 | 26.01% |
+| Platform  | Total Clicks | Total Impressions | CTR   |
+|-----------|-------------:|------------------:|------:|
+| Facebook  | 1,206,136    | 5,323,806         | 22.66% |
+| Instagram | 1,676,654    | 7,348,196         | 22.82% |
+| LinkedIn  | 864,820      | 3,601,454         | 24.01% |
+| YouTube   | 1,299,862    | 4,997,935         | 26.01% |
 
 ### Key Insight
 
@@ -323,19 +310,16 @@ This indicates that YouTube generated the highest click rate relative to impress
 ## Formula
 
 ```
-```
-
-```
 Profile Visit Rate =
 Total Profile Visits ÷ Total Impressions × 100
 ```
 
-| PlatformTotal Profile VisitsTotal ImpressionsProfile Visit Rate |         |           |        |
-| --------------------------------------------------------------- | ------- | --------- | ------ |
-| Facebook                                                        | 784,964 | 5,323,806 | 14.74% |
-| Instagram                                                       | 973,891 | 7,348,196 | 13.25% |
-| LinkedIn                                                        | 535,156 | 3,601,454 | 14.86% |
-| YouTube                                                         | 777,664 | 4,997,935 | 15.56% |
+| Platform  | Total Profile Visits | Total Impressions | Profile Visit Rate |
+|-----------|---------------------:|------------------:|-------------------:|
+| Facebook  | 784,964              | 5,323,806         | 14.74%             |
+| Instagram | 973,891              | 7,348,196         | 13.25%             |
+| LinkedIn  | 535,156              | 3,601,454         | 14.86%             |
+| YouTube   | 777,664              | 4,997,935         | 15.56%             |
 
 ### Key Insight
 
@@ -347,30 +331,29 @@ Total Profile Visits ÷ Total Impressions × 100
 
 ## Total Engagement
 
-| MetricTotal |           |
-| ----------- | --------- |
-| Likes       | 1,009,901 |
-| Comments    | 194,621   |
-| Shares      | 155,178   |
+| Metric   | Total     |
+|----------|----------:|
+| Likes    | 1,009,901 |
+| Comments | 194,621   |
+| Shares   | 155,178   |
 
 ## Average Engagement per Post
 
-| PlatformAvg LikesAvg CommentsAvg Shares |          |          |        |
-| --------------------------------------- | -------- | -------- | ------ |
-| Facebook                                | 5,105.60 | 1,001.34 | 723.14 |
-| Instagram                               | 5,050.48 | 867.54   | 784.37 |
-| LinkedIn                                | 5,424.71 | 1,092.59 | 752.65 |
-| YouTube                                 | 4,743.14 | 1,000.31 | 832.29 |
-
+| Platform  | Avg Likes | Avg Comments | Avg Shares |
+|-----------|----------:|-------------:|-----------:|
+| Facebook  | 5,105.60  | 1,001.34     | 723.14     |
+| Instagram | 5,050.48  | 867.54       | 784.37     |
+| LinkedIn  | 5,424.71  | 1,092.59     | 752.65     |
+| YouTube   | 4,743.14  | 1,000.31     | 832.29     |
 ### Key Insights
 
-| MetricPlatform                |           |
-| ----------------------------- | --------- |
+| Metric                        | Platform |
+|-------------------------------|----------|
 | Highest Total Likes           | Instagram |
 | Highest Total Shares          | Instagram |
-| Highest Average Likes/Post    | LinkedIn  |
-| Highest Average Comments/Post | LinkedIn  |
-| Highest Average Shares/Post   | YouTube   |
+| Highest Average Likes/Post    | LinkedIn |
+| Highest Average Comments/Post | LinkedIn |
+| Highest Average Shares/Post   | YouTube |
 
 ---
 
@@ -378,12 +361,12 @@ Total Profile Visits ÷ Total Impressions × 100
 
 ## Average Engagement Rate
 
-| Content TypeAvg Engagement Rate |       |
-| ------------------------------- | ----- |
-| Article                         | 9.18% |
-| Story                           | 8.91% |
-| Post                            | 8.40% |
-| Reel                            | 8.03% |
+| Content Type | Avg Engagement Rate |
+|--------------|---------------------:|
+| Article      | 9.18%                |
+| Story        | 8.91%                |
+| Post         | 8.40%                |
+| Reel         | 8.03%                |
 
 ### Content Insights
 
@@ -397,17 +380,14 @@ This shows that the best format can change depending on the KPI being measured.
 
 # 📱 Platform × Content Performance
 
-| PlatformBest Content TypeAvg Engagement Rate |         |       |
-| -------------------------------------------- | ------- | ----- |
-| Facebook                                     | Story   | 9.16% |
-| Instagram                                    | Article | 9.26% |
-| LinkedIn                                     | Article | 9.34% |
-| YouTube                                      | Article | 9.82% |
+| Platform  | Best Content Type | Avg Engagement Rate |
+|-----------|--------------------|---------------------:|
+| Facebook  | Story              | 9.16%                |
+| Instagram | Article            | 9.26%                |
+| LinkedIn  | Article            | 9.34%                |
+| YouTube   | Article            | 9.82%                |
 
 ### Best Content by Platform
-
-```
-```
 
 ```
 Facebook  → Story
@@ -420,12 +400,12 @@ YouTube   → Article
 
 # 🏆 Top 3 Content Types by Platform
 
-| PlatformRank 1Rank 2Rank 3 |                 |                 |               |
-| -------------------------- | --------------- | --------------- | ------------- |
-| Facebook                   | Story – 9.16%   | Article – 8.20% | Reel – 7.96%  |
-| Instagram                  | Article – 9.26% | Story – 8.98%   | Post – 8.75%  |
-| LinkedIn                   | Article – 9.34% | Reel – 8.55%    | Story – 8.22% |
-| YouTube                    | Article – 9.82% | Story – 8.98%   | Post – 8.90%  |
+| Platform  | Rank 1          | Rank 2          | Rank 3         |
+|-----------|-----------------|-----------------|----------------|
+| Facebook  | Story – 9.16%   | Article – 8.20% | Reel – 7.96%   |
+| Instagram | Article – 9.26% | Story – 8.98%   | Post – 8.75%   |
+| LinkedIn  | Article – 9.34% | Reel – 8.55%    | Story – 8.22%  |
+| YouTube   | Article – 9.82% | Story – 8.98%   | Post – 8.90%   |
 
 ### Key Observation
 
@@ -437,12 +417,12 @@ A content type that performs well on one platform may not necessarily produce th
 
 # 🖱️ Highest-Click Content by Platform
 
-| PlatformContent TypeAvg Clicks |      |           |
-| ------------------------------ | ---- | --------- |
-| Facebook                       | Reel | 27,478.54 |
-| Instagram                      | Post | 29,008.73 |
-| LinkedIn                       | Post | 29,966.00 |
-| YouTube                        | Post | 28,693.67 |
+| Platform  | Content Type | Avg Clicks |
+|-----------|--------------|-----------:|
+| Facebook  | Reel         | 27,478.54  |
+| Instagram | Post         | 29,008.73  |
+| LinkedIn  | Post         | 29,966.00  |
+| YouTube   | Post         | 28,693.67  |
 
 ### Key Insight
 
@@ -454,9 +434,12 @@ This is an important analytical finding because engagement and conversion-relate
 
 # 👥 Follower Growth by Content
 
-| PlatformContent TypeAvg Follower Growth |       |          |
-| --------------------------------------- | ----- | -------- |
-| LinkedIn                                | Story | 1,953.75 |
+| Platform  | Content Type | Avg Clicks |
+|-----------|--------------|-----------:|
+| Facebook  | Reel         | 27,478.54  |
+| Instagram | Post         | 29,008.73  |
+| LinkedIn  | Post         | 29,966.00  |
+| YouTube   | Post         | 28,693.67  |
 
 The **LinkedIn Story** combination records the highest follower-growth result in the corresponding SQL analysis.
 
@@ -466,21 +449,20 @@ The **LinkedIn Story** combination records the highest follower-growth result in
 
 ## Sentiment Distribution
 
-| SentimentPostsPercentage |     |       |
-| ------------------------ | --- | ----- |
-| Positive                 | 101 | 50.5% |
-| Negative                 | 99  | 49.5% |
-
+| Sentiment | Posts | Percentage |
+|-----------|------:|-----------:|
+| Positive  | 101   | 50.5%      |
+| Negative  | 99    | 49.5%      |
 The dataset has an almost evenly divided sentiment distribution.
 
 ---
 
 ## Engagement Rate by Sentiment
 
-| SentimentAvg Engagement Rate |       |
-| ---------------------------- | ----- |
-| Negative                     | 8.76% |
-| Positive                     | 8.53% |
+| Sentiment | Avg Engagement Rate |
+|-----------|---------------------:|
+| Negative  | 8.76%                |
+| Positive  | 8.53%                |
 
 ### Key Insight
 
@@ -489,9 +471,6 @@ Negative-sentiment posts have a slightly higher average engagement rate in the d
 This should **not** be interpreted as negative sentiment being desirable.
 
 It demonstrates that:
-
-```
-```
 
 ```
 Engagement ≠ Sentiment
@@ -503,19 +482,18 @@ A post can generate substantial interaction while still being associated with ne
 
 # 🏅 Top 10 Posts by Engagement Rate
 
-| RankPlatformContent TypeEngagement RateReachClicksFollower Growth |           |         |        |        |        |       |
-| ----------------------------------------------------------------- | --------- | ------- | ------ | ------ | ------ | ----- |
-| 1                                                                 | YouTube   | Reel    | 12.48% | 49,427 | 22,550 | 205   |
-| 2                                                                 | Facebook  | Article | 12.46% | 51,484 | 36,412 | 2,405 |
-| 3                                                                 | Instagram | Article | 12.44% | 49,323 | 32,576 | 1,471 |
-| 4                                                                 | Facebook  | Story   | 12.43% | 17,516 | 2,596  | 1,337 |
-| 5                                                                 | Facebook  | Reel    | 12.40% | 12,494 | 24,095 | 2,832 |
-| 6                                                                 | YouTube   | Reel    | 12.39% | 48,080 | 13,416 | 2,749 |
-| 7                                                                 | Instagram | Post    | 12.34% | 19,918 | 46,817 | 2,713 |
-| 8                                                                 | Facebook  | Story   | 12.27% | 25,412 | 7,110  | 2,890 |
-| 9                                                                 | YouTube   | Story   | 12.26% | 49,974 | 40,487 | 328   |
-| 10                                                                | Instagram | Article | 12.23% | 8,190  | 35,943 | 899   |
-
+| Rank | Platform  | Content Type | Engagement Rate | Reach  | Clicks | Follower Growth |
+|-----:|-----------|--------------|----------------:|-------:|-------:|----------------:|
+| 1    | YouTube   | Reel         | 12.48%          | 49,427 | 22,550 | 205              |
+| 2    | Facebook  | Article      | 12.46%          | 51,484 | 36,412 | 2,405            |
+| 3    | Instagram | Article      | 12.44%          | 49,323 | 32,576 | 1,471            |
+| 4    | Facebook  | Story        | 12.43%          | 17,516 | 2,596  | 1,337            |
+| 5    | Facebook  | Reel         | 12.40%          | 12,494 | 24,095 | 2,832            |
+| 6    | YouTube   | Reel         | 12.39%          | 48,080 | 13,416 | 2,749            |
+| 7    | Instagram | Post         | 12.34%          | 19,918 | 46,817 | 2,713            |
+| 8    | Facebook  | Story        | 12.27%          | 25,412 | 7,110  | 2,890            |
+| 9    | YouTube   | Story        | 12.26%          | 49,974 | 40,487 | 328              |
+| 10   | Instagram | Article      | 12.23%          | 8,190  | 35,943 | 899              |
 ### Observation
 
 Individual post performance varies considerably from platform-level averages.
@@ -540,12 +518,12 @@ The score combines:
 
 using equal weighting and min-max normalisation.
 
-| PlatformEngagement RateReachCTRAvg Follower GrowthOverall Score |       |           |        |          |       |
-| --------------------------------------------------------------- | ----- | --------- | ------ | -------- | ----- |
-| YouTube                                                         | 8.97% | 30,436.12 | 26.01% | 1,632.76 | 71.66 |
-| LinkedIn                                                        | 8.69% | 29,733.32 | 24.01% | 1,672.68 | 50.50 |
-| Instagram                                                       | 8.67% | 33,847.82 | 22.82% | 1,602.15 | 48.06 |
-| Facebook                                                        | 8.23% | 35,350.52 | 22.66% | 1,518.40 | 25.00 |
+| Platform  | Engagement Rate | Reach     | CTR    | Avg Follower Growth | Overall Score |
+|-----------|----------------:|----------:|-------:|--------------------:|--------------:|
+| YouTube   | 8.97%           | 30,436.12 | 26.01% | 1,632.76            | 71.66         |
+| LinkedIn  | 8.69%           | 29,733.32 | 24.01% | 1,672.68            | 50.50         |
+| Instagram | 8.67%           | 33,847.82 | 22.82% | 1,602.15            | 48.06         |
+| Facebook  | 8.23%           | 35,350.52 | 22.66% | 1,518.40            | 25.00         |
 
 ### Methodology Note
 
@@ -561,21 +539,21 @@ It should not be interpreted as a universal measure of platform value because:
 
 # 🔄 Platform Performance Summary
 
-| MetricPlatform / Content                        |           |
-| ----------------------------------------------- | --------- |
-| Highest Average Engagement Rate                 | YouTube   |
-| Highest Total Follower Growth                   | Instagram |
-| Highest Average Reach                           | Facebook  |
-| Highest CTR                                     | YouTube   |
-| Highest Profile Visit Rate                      | YouTube   |
-| Highest Total Likes                             | Instagram |
-| Highest Total Shares                            | Instagram |
-| Highest Average Likes/Post                      | LinkedIn  |
-| Highest Average Comments/Post                   | LinkedIn  |
-| Highest Average Shares/Post                     | YouTube   |
-| Highest Content Engagement Rate                 | Article   |
-| Highest Average Reach by Content Type           | Post      |
-| Highest Average Follower Growth by Content Type | Story     |
+| Metric                                      | Platform / Content |
+|---------------------------------------------|---------------------|
+| Highest Average Engagement Rate             | YouTube             |
+| Highest Total Follower Growth               | Instagram           |
+| Highest Average Reach                       | Facebook            |
+| Highest CTR                                 | YouTube             |
+| Highest Profile Visit Rate                  | YouTube             |
+| Highest Total Likes                         | Instagram           |
+| Highest Total Shares                        | Instagram           |
+| Highest Average Likes/Post                  | LinkedIn            |
+| Highest Average Comments/Post               | LinkedIn            |
+| Highest Average Shares/Post                 | YouTube             |
+| Highest Content Engagement Rate             | Article             |
+| Highest Average Reach by Content Type       | Post                |
+| Highest Average Follower Growth by Content Type | Story            |
 
 ---
 
